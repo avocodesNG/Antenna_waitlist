@@ -1,0 +1,62 @@
+@media (max-width: 990px) {
+    /* COMMON STYLINGS */
+.header-text {
+    font-size: 30px;
+}
+
+.main-header {
+    font-size: 40px;
+}
+
+.w-50 {
+    width: 100% !important;
+}
+
+.join-waitlist {
+    display: none;
+}
+/* Hero Section */
+.hero-section {
+flex-direction: column;
+gap: 30px;
+margin-top: 40px;
+}
+
+.hero-section .hot-tag {
+    font-size: 12px;
+}
+
+.hero-section .hero-img, .why-gourde-img img {
+    width: 80%;
+    height: 50%;
+}
+
+.hero-section .hero-img-container, .why-gourde-img {
+    text-align: center !important;
+}
+
+/* WHY GOURDE */
+.why-gourde-content {
+    flex-direction: column;
+    gap: 20px;
+    padding-top: 30px;
+}
+
+
+
+
+
+    .container-fluid {
+        padding-left: 30px !important;
+        padding-right: 30px !important ;
+    }
+
+    .download-app-img {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .create-merchant-container {
+   grid-template-columns: auto;
+}
+}

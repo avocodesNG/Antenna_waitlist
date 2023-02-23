@@ -19,7 +19,7 @@
             </el-dropdown-menu>
           </el-dropdown>
 
-          <div>
+          <div class="join-waitlist">
             <button
               class="primary-btn d-flex align-items-center"
               style="gap: 3px"

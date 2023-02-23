@@ -5,4 +5,7 @@
 @import url('../css/main.css');
 
 /* Navigation Bar */
-@import url('../css/nav.css')
+@import url('../css/nav.css');
+
+/* media Query  */
+@import url("../css/media-query.css");
