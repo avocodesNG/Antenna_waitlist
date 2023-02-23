@@ -59,4 +59,8 @@ margin-top: 40px;
     .create-merchant-container {
    grid-template-columns: auto;
 }
+
+.app-footer ul {
+    flex-direction: column;
+}
 }

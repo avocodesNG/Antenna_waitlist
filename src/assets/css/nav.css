@@ -10,3 +10,27 @@
 .app-header span.el-dropdown-link {
     color: var(--text-color);
 }
+
+
+/* FOOTER  */
+.menu-item {
+    background-color: var(--faded-color);
+    padding: 14px 25px;
+    border-radius: 30px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+.social-links  {
+    margin-top:20px ;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-flex;
+    justify-content: center;
+    gap:20px   
+}
+
+.social-links a .fa{
+    color: #6B7280;
+    font-size: 20px;
+}
