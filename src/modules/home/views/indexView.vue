@@ -4,7 +4,7 @@
       <HeroSection />
       <WhyGourde class="my-5" />
       <CreateMerchant />
-      <DownloadApp class="my-5" />
+      <DownloadApp class="mt-5 mb-3" />
     </div>
   </div>
 </template>

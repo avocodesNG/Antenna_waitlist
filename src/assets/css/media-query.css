@@ -63,4 +63,8 @@ margin-top: 40px;
 .app-footer ul {
     flex-direction: column;
 }
+
+.menu-item {
+    width: 100%;
+}
 }

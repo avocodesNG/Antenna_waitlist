@@ -1,5 +1,5 @@
 <template>
-  <div class="app-footer py-4 text-center">
+  <div class="app-footer py-4 text-center container">
     <div>
       <ul
         class="mb-0 d-flex align-items-center justify-content-center"
