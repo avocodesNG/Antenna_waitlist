@@ -1,0 +1,93 @@
+/* COMMON STYLINGS */
+.header-text {
+    font-weight: 600;
+    font-size: 40px;
+}
+
+.body-text {
+    color: var(--text-color);
+    font-size: 14.5px;
+}
+
+.main-header {
+    font-weight: 600;
+    font-size: 50px;
+}
+
+/* HERO SECTION  */
+
+.hero-section {
+    min-height: calc(100vh - 120px);
+}
+
+
+.hero-section .hero-img {
+    width: 350px;
+    height: 50%;
+}
+
+.hero-section .hot-tag {
+    background-color: var(--success-color);
+    text-transform: uppercase;
+    font-size: 13px;
+    display: grid;
+    place-items: center;
+    padding: 2px 10px;
+    border-radius: 15px;
+    font-weight: 600;
+    color: var(--light-color);
+}
+
+.hero-section .launching-soon {
+    background-color: var(--light-accent);
+    width: max-content;
+    max-width:max-content ;
+    padding: 12px 15px;
+    display: flex;
+    display: inline-flex;
+    display: -webkit-flex;
+    gap:8px;
+    border-radius: 25px;
+    align-items: center;
+}
+
+/* WHY GOURDE  */
+.why-gourde {
+    background-image: url("../img/why-gourde-bg.png");
+    background-size: cover;
+    background-position: center;
+    border-radius: 40px;
+}
+
+.why-gourde-img img {
+    width: 300px;
+    height: 60%;
+}
+
+.why-gourde-content {
+    min-height: 450px;
+}
+
+/* CREATE MERCHANT  */
+.create-merchant-container {
+    display: grid;
+    display: -ms-grid;
+    display: -moz-grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 20px;
+}
+
+.create-merchant {
+    background: url("../img/create-merchant-bg.png");
+    min-height: 600px;
+}
+
+.safe-data {
+    background: url("../img/safe-data-bg.png");
+    min-height: 600px;
+}
+
+.create-merchant img, .safe-data img {
+    width: 250px;
+    height: 350px;
+}
