@@ -231,12 +231,6 @@ p, span, button, a {
   padding-right: 5rem !important;
 }
 
-/* .container {
-  max-width: 1240px;
-} */
-
-
-
 body {
   background-color: var(--light-color);
 }

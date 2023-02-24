@@ -70,13 +70,10 @@ export default {
         creole: "HT",
         spanish: "ES",
       },
-      //   lang: "english",
     };
   },
   methods: {
     changeLang(value) {
-      //   this.lang = value;
-      console.log(value);
       this.$store.dispatch("home/changeLocale", value);
     },
   },
