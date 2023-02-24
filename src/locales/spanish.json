@@ -23,5 +23,13 @@
 
 
       "fun-better": "Diversión. Mejor. Seguro",
-      "giving-undeserved": "Dando a los haitianos no merecidos acceso a servicios financieros gratuitos"
+      "giving-undeserved": "Dando a los haitianos no merecidos acceso a servicios financieros gratuitos",
+
+      "nav": {
+        "faqs": "FAQs",
+        "privacy": "Privacy",
+        "terms-and-conditions": "Terms and Conditions",
+        "contact-us": "Contact Us",
+        "press-kit": "Carpeta de prensa"
+      }
     }

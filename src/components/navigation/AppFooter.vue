@@ -5,8 +5,20 @@
         class="mb-0 d-flex align-items-center justify-content-center"
         style="gap: 20px"
       >
-        <li class="menu-item" v-for="item in nav_menu" :key="item.id">
-          {{ item.title }}
+        <li class="menu-item">
+          {{ $t("nav.faqs") }}
+        </li>
+        <li class="menu-item">
+          {{ $t("nav.privacy") }}
+        </li>
+        <li class="menu-item">
+          {{ $t("nav.terms-and-conditions") }}
+        </li>
+        <li class="menu-item">
+          {{ $t("nav.contact-us") }}
+        </li>
+        <li class="menu-item">
+          {{ $t("nav.press-kit") }}
         </li>
       </ul>
 
@@ -35,24 +47,24 @@ export default {
       nav_menu: [
         {
           id: 1,
-          title: "FAQs",
+          title: "faqs",
         },
         {
           id: 2,
-          title: "Privacy",
+          title: "privacy",
         },
         {
           id: 3,
-          title: "Terms and Conditions",
+          title: "terms-and-conditions",
         },
         {
           id: 4,
-          title: "Contact Us",
+          title: "contact-us",
         },
-        // {
-        //   id: 5,
-        //   title: "Help",
-        // },
+        {
+          id: 5,
+          title: "press-kit",
+        },
       ],
     };
   },

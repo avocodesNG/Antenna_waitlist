@@ -22,5 +22,13 @@
 
 
       "fun-better": "Amizan. Pi bon. Asire",
-      "giving-undeserved": "Bay Ayisyen ki pa merite aksè a sèvis Finansye gratis"
+      "giving-undeserved": "Bay Ayisyen ki pa merite aksè a sèvis Finansye gratis",
+
+      "nav": {
+        "faqs": "FAQs",
+        "privacy": "Privacy",
+        "terms-and-conditions": "Terms and Conditions",
+        "contact-us": "Contact Us",
+        "press-kit": "Twous pou laprès"
+      }
     }

@@ -23,5 +23,13 @@
       "safe-data-text": "From verification locks to data encryption, we take steps to make sure your money and information are safe.",
 
       "fun-better": "Fun. Better. Secure",
-      "giving-undeserved": "Giving undeserved Haitians access to free Financial services"
+      "giving-undeserved": "Giving undeserved Haitians access to free Financial services",
+
+      "nav": {
+        "faqs": "FAQs",
+        "privacy": "Privacy",
+        "terms-and-conditions": "Terms and Conditions",
+        "contact-us": "Contact Us",
+        "press-kit": "Press Kit"
+      }
     }

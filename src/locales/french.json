@@ -21,5 +21,13 @@
       "safe-data-text": "Des verrous de vérification au cryptage des données, nous prenons des mesures pour nous assurer que votre argent et vos informations sont en sécurité.",
      
       "fun-better": "Amusement. Mieux. Sûr",
-      "giving-undeserved": "Donner aux Haïtiens non mérités l'accès à des services financiers gratuits"
+      "giving-undeserved": "Donner aux Haïtiens non mérités l'accès à des services financiers gratuits",
+
+      "nav": {
+        "faqs": "FAQs",
+        "privacy": "Privacy",
+        "terms-and-conditions": "Terms and Conditions",
+        "contact-us": "Contact Us",
+        "press-kit": "Dossier de presse"
+      }
     }
