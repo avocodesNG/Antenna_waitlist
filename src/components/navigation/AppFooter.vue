@@ -5,7 +5,7 @@
         class="mb-0 d-flex align-items-center justify-content-center"
         style="gap: 20px"
       >
-        <li class="menu-item" v-for="item in nav_menu" :key="item">
+        <li class="menu-item" v-for="item in nav_menu" :key="item.id">
           {{ item.title }}
         </li>
       </ul>
@@ -43,16 +43,16 @@ export default {
         },
         {
           id: 3,
-          title: "Terms",
+          title: "Terms and Conditions",
         },
         {
           id: 4,
           title: "Contact Us",
         },
-        {
-          id: 5,
-          title: "Help",
-        },
+        // {
+        //   id: 5,
+        //   title: "Help",
+        // },
       ],
     };
   },

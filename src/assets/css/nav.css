@@ -11,6 +11,15 @@
     color: var(--text-color);
 }
 
+.drop-item a {
+    color: var(--text-color);
+    font-weight: 500;
+    font-size: 13.5px;
+}
+
+.el-dropdown-menu__item:hover {
+    background: transparent !important;
+}
 
 /* FOOTER  */
 .menu-item {

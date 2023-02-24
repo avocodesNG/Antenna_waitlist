@@ -1,0 +1,27 @@
+{
+    "selected_language": "{language}",
+      "english": "English",
+     "creole": "Haitain Creole",
+      "french": "French",
+      "spanish": "Spanish",
+
+      "btn-text": "Join our Waitlist",
+
+      "hero-text": "Receive Cash quicker through your smartphone in Haiti",
+      "hero-desc": "Gourde App is a service designed to allow underserved communities in Haiti to maximize the return on aid they receive from the international community.",
+      "launching-soon": "We are Launching soon",
+      "hot": "hot",
+     
+      "why-gourde": "Why Gourde App",
+      "transfer": "Transfer",
+      "fast-better": "Fast, Better and Secure",
+      "why-gourde-text": "With the use of a gourde tag, users can easily send and receive money. Free, Fast and Safe.",
+
+      "create-merchant-header": "Create a merchant account today",
+      "create-merchant-text": "Gourde App offers merchants unlimited access to their own gourde stores and complete transactions.",
+      "safe-data-header": "Your data is safe with us",
+      "safe-data-text": "From verification locks to data encryption, we take steps to make sure your money and information are safe.",
+
+      "fun-better": "Fun. Better. Secure",
+      "giving-undeserved": "Giving undeserved Haitians access to free Financial services"
+    }

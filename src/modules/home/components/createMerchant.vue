@@ -5,10 +5,11 @@
         class="create-merchant d-flex flex-column container-fluid justify-content-between align-items-center"
       >
         <div>
-          <h2 class="header-text mt-4 mb-3">Create a merchant account today</h2>
+          <h2 class="header-text mt-4 mb-3">
+            {{ $t("create-merchant-header") }}
+          </h2>
           <p class="body-text">
-            Gourde App offers merchants with an unlimited access to own gourde
-            stores and complete transactions.
+            {{ $t("create-merchant-text") }}
           </p>
         </div>
         <div class="">
@@ -19,10 +20,9 @@
         class="safe-data d-flex flex-column container-fluid justify-content-between align-items-center"
       >
         <div>
-          <h2 class="header-text mt-4 mb-3">Your data is safe with us</h2>
+          <h2 class="header-text mt-4 mb-3">{{ $t("safe-data-header") }}</h2>
           <p class="body-text">
-            From verification locks to data encryption, we take steps to make
-            sure your money and information are safe.
+            {{ $t("safe-data-text") }}
           </p>
         </div>
         <div class="">

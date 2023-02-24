@@ -1,9 +1,9 @@
 <template>
   <div class="download-app container-fluid">
     <div class="text-center d-flex flex-column" style="gap: 14px">
-      <h1 class="text-white">Fun. Better. Secure</h1>
+      <h1 class="text-white">{{ $t("fun-better") }}</h1>
       <p class="text-white">
-        Giving undeserved Haitians access to free Financial services
+        {{ $t("giving-undeserved") }}
       </p>
       <div
         class="download-app-img d-flex justify-content-center"
