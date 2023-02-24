@@ -22,9 +22,13 @@
                 :key="`lang${i}`"
                 :value="lang"
               >
-                <a href="javascript:void(0)" @click="changeLang(lang)">{{
-                  $t(lang)
-                }}</a>
+                <!-- <span> {{ lang + "," + selected }}</span> -->
+                <span
+                  :role="lang === selected ? '' : 'button'"
+                  :class="{ active: lang === selected }"
+                  @click="changeLang(lang)"
+                  >{{ $t(lang) }}</span
+                >
               </el-dropdown-item>
             </el-dropdown-menu>
           </el-dropdown>
@@ -87,6 +91,9 @@ export default {
     },
     selected_language() {
       return this.$t(this.languagesMap[this.lang]);
+    },
+    selected() {
+      return this.lang;
     },
     selected_flag() {
       return this.shortCodes[this.lang];
