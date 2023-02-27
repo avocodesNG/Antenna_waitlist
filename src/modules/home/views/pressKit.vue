@@ -76,6 +76,14 @@
         <img src="@/assets/img/founder.jpeg" alt="" />
       </div>
       <div class="body-text" v-html="$t('press-kit.founder-name')"></div>
+
+      <h2 class="header-text mt-3">
+        {{ $t("press-kit.contact-us") }}
+      </h2>
+      <p class="body-text">
+        {{ $t("press-kit.contact-us-text") }}
+      </p>
+      <a href="mailto:press@gourdeapp.com">press@gourdeapp.com</a>
     </div>
   </div>
 </template>
