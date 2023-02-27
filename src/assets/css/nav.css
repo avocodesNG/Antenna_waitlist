@@ -38,6 +38,10 @@
     font-size: 14px;
 }
 
+.menu-item a {
+    color: var(--dark-color);
+}
+
 .social-links  {
     margin-top:20px ;
     display: flex;

@@ -30,5 +30,32 @@
         "terms-and-conditions": "Terms and Conditions",
         "contact-us": "Contact Us",
         "press-kit": "Twous pou laprès"
+      },
+
+      "privacy": {
+        "header": "Gourde App Privacy Policy",
+        "description": "Gourde App (the “Company”) is committed to maintaining robust privacy protections for its users.  Our Privacy Policy (“Privacy Policy”) is designed to help you understand how we collect, use and safeguard the information you provide to us and to assist you in making informed decisions when using our Service.",
+        "desc-text": "<p>For purposes of this Agreement, 'Platform' refers to the Company’s Application, which can be accessed at gourde.app. <br> 'Service' refers to the Company’s services accessed via the Platform, in which users can send and receive money internationally. <br> The terms 'we', 'us', and 'our' refer to the Company. <br> 'You' refers to you, as a user of our Site or our Service. <br> By accessing our Application or our Service, you accept our Privacy Policy and Terms of Use (found here: <a href='https://www.gourde.app/terms'>www.gourde.app/terms</a>), and you consent to our collection, storage, use and disclosure of your Personal Information as described in this Privacy Policy.</p>",
+        "header-one": "Information we collect",
+        "body-text-one": "<p></p>",
+        "header-one-a": "Information we collect",
+        "body-text-one-a": "<p></p>",
+        "header-one-b": "Information we collect",
+        "body-text-one-b": "<p></p>",
+        "header-one-c": "Information we collect",
+        "body-text-one-c": "<p></p>",
+        "header-two": "Information we collect",
+        "body-text-two": "<p></p>",
+        "header-three": "Information we collect",
+        "body-text-three": "<p></p>",
+        "header-four": "Information we collect",
+        "body-text-four": "<p></p>",
+        "header-five": "Information we collect",
+        "body-text-five": "<p></p>",
+        "header-six": "Information we collect",
+        "body-text-six": "<p></p>",
+        "header-seven": "Information we collect",
+        "body-text-seven": "<p></p>",
+        "last-updated": ""
       }
     }

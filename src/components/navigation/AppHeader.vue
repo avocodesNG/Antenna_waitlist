@@ -2,7 +2,9 @@
   <div class="app-header-container sticky-top bg-white">
     <div class="container">
       <div class="app-header">
-        <img src="@/assets/img/logo-spread.svg" alt="" />
+        <router-link to="/">
+          <img src="@/assets/img/logo-spread.svg" alt="" />
+        </router-link>
         <div class="d-flex align-items-center" style="gap: 30px">
           <el-dropdown trigger="click">
             <span

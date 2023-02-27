@@ -9,7 +9,9 @@
           {{ $t("nav.faqs") }}
         </li>
         <li class="menu-item">
-          {{ $t("nav.privacy") }}
+          <router-link to="/privacy-policy">{{
+            $t("nav.privacy")
+          }}</router-link>
         </li>
         <li class="menu-item">
           {{ $t("nav.terms-and-conditions") }}
@@ -18,23 +20,20 @@
           {{ $t("nav.contact-us") }}
         </li>
         <li class="menu-item">
-          {{ $t("nav.press-kit") }}
+          <router-link to="press-kit"> {{ $t("nav.press-kit") }}</router-link>
         </li>
       </ul>
 
       <div class="social-links">
-        <a href="javascripp:void(0)"
+        <a href="javascript:void(0)"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
-        <a href="javascripp:void(0)">
+        <a href="javascript:void(0)">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="javascripp:void(0)">
+        <a href="javascript:void(0)">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
-        <!-- <a href="javascripp:void(0)">
-            
-        </a> -->
       </div>
     </div>
   </div>
