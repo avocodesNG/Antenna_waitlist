@@ -58,5 +58,13 @@
     "contact-us": "Contact Us",
     "contact-us-text": "<p>If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us by sending an email to <a href='mailto:contact@gourdeapp.com'>contact@gourdeapp.com</a>.</p>",
     "last-updated": "Last Updated: This Privacy Policy was last updated on 02/24/2023."
+  },
+
+  "press-kit":{
+    "desc":  "<p>The Gourde App allows you to receive international money, save it, and share it more efficiently with family and friends. We are concerned about providing financial resources to Haiti's lower class, especially unbanked Haitians.</p>",
+    "logo-marks": "Logo Marks",
+    "product-screens": "Product Screens",
+    "founder": "Founder & CEO",
+    "founder-name": "Joseph Moreau"
   }
 }

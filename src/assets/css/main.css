@@ -110,3 +110,17 @@
     max-width: 150px;
     height: 45px;
 }
+
+/* PRESS KIT  */
+.logo-images img {
+    width: 40%;
+}
+
+.founder img {
+    width: 30%;
+    height: 300px;
+    object-fit: cover;
+    -o-object-fit: cover;
+    -o-object-position: top;
+    object-position: top;
+}
