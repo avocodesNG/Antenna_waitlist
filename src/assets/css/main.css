@@ -91,6 +91,11 @@
 .create-merchant img, .safe-data img {
     width: 250px;
     height: 350px;
+object-fit: cover;
+object-position: top;
+-o-object-fit: cover;
+-o-object-position: top;
+border-radius: 30px 30px 0 0;
 }
 
 /* DOWNLOAD  */
