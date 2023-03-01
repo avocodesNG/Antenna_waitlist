@@ -67,4 +67,22 @@ padding-top: 20px;
 .menu-item {
     width: 100%;
 }
+
+
+/* Press Kit  */
+.press-kit-files img {
+    width: 150px;
+    height: 150px;
+    
+    }
+
+    /* Founder  */
+    .founder img {
+        width: 150px;
+        height: 150px;
+        object-fit: cover;
+        -o-object-fit: cover;
+        -o-object-position: top;
+        object-position: top;
+    }
 }

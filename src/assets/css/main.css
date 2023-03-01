@@ -124,3 +124,22 @@
     -o-object-position: top;
     object-position: top;
 }
+
+.press-kit-files {
+    border: 0.5px solid var(--light-accent);
+    display: block;
+    padding: 2em;
+}
+
+a.press-kit-files:hover {
+    text-decoration: none !important;
+}
+
+.press-kit-files img {
+width: 350px;
+height: 350px;
+-o-object-fit: contain;
+object-fit: contain;
+object-position: center;
+-o-object-position: center;
+}

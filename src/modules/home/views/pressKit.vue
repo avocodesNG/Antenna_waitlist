@@ -7,89 +7,112 @@
       <hr />
       <div class="body-text" v-html="$t('press-kit.desc')"></div>
 
-      <h2 class="header-text mt-3">
-        {{ $t("press-kit.logo-marks") }}
-      </h2>
-      <div class="logo-images row mt-3">
-        <img
-          src="@/assets/img/logos/1.png"
-          class="col-12 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/logos/2.png"
-          class="col-12 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/logos/3.png"
-          class="col-12 col-md-4 mb-2"
-          alt=""
-        />
+      <div class="d-lg-flex" style="gap: 22px">
+        <a
+          href="@/assets/files/logos marks.zip"
+          class="press-kit-files w-100 mt-5 mb-4"
+          download
+        >
+          <div>
+            <img
+              class="d-block mx-auto"
+              src="@/assets/img/logos/2.png"
+              width="80%"
+              alt=""
+            />
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <h6 class="mt-3 text-dark">
+                {{ $t("press-kit.logo-marks") }}
+              </h6>
+              <i-icon
+                icon="el:download"
+                width="20px"
+                color="var(--primary-color)"
+              />
+            </div>
+          </div>
+        </a>
+
+        <a
+          href="@/assets/files/product images.zip"
+          class="press-kit-files w-100 mt-5 mb-4"
+          download=""
+        >
+          <div>
+            <img
+              class="d-block mx-auto"
+              src="@/assets/img/product-screens/Onboarding Screen.jpg"
+              width="80%"
+              alt=""
+            />
+            <div class="d-flex align-items-center justify-content-between mt-3">
+              <h6 class="mt-3 text-dark">
+                {{ $t("press-kit.product-screens") }}
+              </h6>
+              <i-icon
+                icon="el:download"
+                width="20px"
+                color="var(--primary-color)"
+              />
+            </div>
+          </div>
+        </a>
       </div>
 
-      <h2 class="header-text mt-3">
-        {{ $t("press-kit.product-screens") }}
-      </h2>
-      <div class="product-screens">
-        <img
-          src="@/assets/img/product-screens/Sign Up Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/Language Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/My Cards Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/Onboarding Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/Opening Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/Send Cash Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-        <img
-          src="@/assets/img/product-screens/Contact Screen.jpg"
-          class="col-6 col-md-4 mb-2"
-          alt=""
-        />
-      </div>
+      <a href="@/assets/img/founder.jpeg" class="press-kit-files w-50" download>
+        <div>
+          <img
+            class="d-block mx-auto"
+            src="@/assets/img/founder.jpeg"
+            width="80%"
+            alt=""
+          />
+          <div class="d-flex align-items-center justify-content-between mt-3">
+            <h6 class="mt-3 text-dark">
+              {{ $t("press-kit.founder") }}
+            </h6>
+            <i-icon
+              icon="el:download"
+              width="20px"
+              color="var(--primary-color)"
+            />
+          </div>
+        </div>
+      </a>
 
-      <h2 class="header-text mt-3">
+      <!-- <h2 class="header-text mt-3">
         {{ $t("press-kit.founder") }}
       </h2>
       <div class="founder my-3">
         <img src="@/assets/img/founder.jpeg" alt="" />
       </div>
-      <div class="body-text" v-html="$t('press-kit.founder-name')"></div>
+      <div class="body-text" v-html="$t('press-kit.founder-name')"></div> -->
 
-      <h2 class="header-text mt-3">
-        {{ $t("press-kit.contact-us") }}
-      </h2>
-      <p class="body-text">
-        {{ $t("press-kit.contact-us-text") }}
-      </p>
-      <a href="mailto:press@gourdeapp.com">press@gourdeapp.com</a>
+      <div class="text-center mt-5">
+        <img src="@/assets/img/icon.svg" width="60" alt="" />
+        <h2 class="header-text my-4">
+          {{ $t("press-kit.contact-us") }}
+        </h2>
+        <h6 class="">
+          {{ $t("press-kit.contact-us-text") }}
+        </h6>
+        <a href="mailto:press@gourdeapp.com">press@gourdeapp.com</a>
+      </div>
     </div>
   </div>
 </template>
 
 <script>
-export default {};
+export default {
+  data() {
+    return {};
+  },
+  methods: {
+    checkWindow() {
+      console.log(window);
+    },
+  },
+};
 </script>
 
 <style></style>
