@@ -26,7 +26,7 @@
           </p>
         </div>
         <div class="">
-          <img src="@/assets/img/product-screens/Sign Up Screen.jpg" alt="" />
+          <img src="@/assets/img/product-screens/Sign Up Screen.png" alt="" />
         </div>
       </div>
     </div>
