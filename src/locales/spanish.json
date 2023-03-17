@@ -27,10 +27,10 @@
 
       "nav": {
         "faqs": "FAQs",
-        "privacy": "Privacy",
-        "terms-and-conditions": "Terms and Conditions",
-        "contact-us": "Contact Us",
-        "press-kit": "Carpeta de prensa"
+    "privacy": "Privacy",
+    "terms-and-conditions": "Terms Of Use",
+    "contact-us": "Contact Us",
+    "press-kit": "Press Kit"
       },
 
       "privacy": {

@@ -14,7 +14,9 @@
           }}</router-link>
         </li>
         <li class="menu-item">
-          {{ $t("nav.terms-and-conditions") }}
+          <router-link to="terms-of-use">{{
+            $t("nav.terms-and-conditions")
+          }}</router-link>
         </li>
         <li class="menu-item">
           <router-link to="/contact-us">
