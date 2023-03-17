@@ -15,15 +15,17 @@
       <p class="body-text">
         {{ $t("hero-desc") }}
       </p>
-      <button
-        class="primary-btn d-flex align-items-center"
-        style="gap: 3px; width: max-content"
-      >
-        <span>{{ $t("btn-text") }}</span>
-        <span>
-          <i-icon icon="ic:round-arrow-outward" width="13px" />
-        </span>
-      </button>
+      <router-link to="/join-waitlist">
+        <button
+          class="primary-btn d-flex align-items-center"
+          style="gap: 3px; width: max-content"
+        >
+          <span>{{ $t("btn-text") }}</span>
+          <span>
+            <i-icon icon="ic:round-arrow-outward" width="13px" />
+          </span>
+        </button>
+      </router-link>
     </div>
 
     <div class="text-right w-100 hero-img-container align-self-end">

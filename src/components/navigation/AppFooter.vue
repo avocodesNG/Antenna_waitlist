@@ -5,9 +5,9 @@
         class="mb-0 d-flex align-items-center justify-content-center"
         style="gap: 20px"
       >
-        <li class="menu-item">
+        <!-- <li class="menu-item">
           {{ $t("nav.faqs") }}
-        </li>
+        </li> -->
         <li class="menu-item">
           <router-link to="/privacy-policy">{{
             $t("nav.privacy")
@@ -17,10 +17,12 @@
           {{ $t("nav.terms-and-conditions") }}
         </li>
         <li class="menu-item">
-          {{ $t("nav.contact-us") }}
+          <router-link to="/contact-us">
+            {{ $t("nav.contact-us") }}</router-link
+          >
         </li>
         <li class="menu-item">
-          <router-link to="press-kit"> {{ $t("nav.press-kit") }}</router-link>
+          <router-link to="/press-kit"> {{ $t("nav.press-kit") }}</router-link>
         </li>
       </ul>
 

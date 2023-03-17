@@ -13,7 +13,9 @@
             <p class="body-text text-white">
               {{ $t("why-gourde-text") }}
             </p>
-            <button class="secondary-btn">{{ $t("btn-text") }}</button>
+            <router-link to="/join-waitlist">
+              <button class="secondary-btn">{{ $t("btn-text") }}</button>
+            </router-link>
           </div>
           <div class="why-gourde-img align-self-end w-100 text-right">
             <img src="@/assets/img/why-gourde-img.png" alt="" />
