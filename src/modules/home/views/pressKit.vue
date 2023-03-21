@@ -9,7 +9,7 @@
 
       <div class="d-lg-flex" style="gap: 22px">
         <a
-          href="@/assets/files/logos marks.zip"
+          href="/files/logos marks.zip"
           class="press-kit-files w-100 mt-5 mb-4"
           download
         >
@@ -34,7 +34,7 @@
         </a>
 
         <a
-          href="@/assets/files/product images.zip"
+          href="/files/product images.zip"
           class="press-kit-files w-100 mt-5 mb-4"
           download=""
         >
@@ -59,7 +59,7 @@
         </a>
       </div>
 
-      <a href="@/assets/img/founder.jpeg" class="press-kit-files w-50" download>
+      <a href="/files/founder.jpeg" class="press-kit-files w-50" download>
         <div>
           <img
             class="d-block mx-auto"
