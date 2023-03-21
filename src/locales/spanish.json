@@ -1,3 +1,4 @@
+
 {
   "selected_language": "{language}",
       "english": "Inglés",
@@ -6,7 +7,7 @@
       "spanish": "Español",
       "btn-text": "Únete a nuestra lista de espera",
       "hero-text": "Reciba dinero en efectivo más rápido a través de su teléfono inteligente en Haití.",
-      "hero-desc": "Gourde App es un servicio diseñado para permitir que las comunidades desatendidas en Haití maximicen el retorno de la ayuda que reciben de la comunidad internacional.",
+      "hero-desc": "La aplicación Gourde es una plataforma de monedero móvil diseñada para permitir pagos digitales y transferencias de dinero en Haití.",
       "launching-soon": "Lanzaremos pronto",
       "hot": "caliente",
       
@@ -14,7 +15,7 @@
       "why-gourde": "Por qué Gourde App",
       "transfer": "Transferir",
       "fast-better": "Rápido,  Mejor,  Seguro",
-      "why-gourde-text":"Con el uso de una etiqueta gourde, los usuarios pueden enviar y recibir dinero fácilmente.  Gratis, Rápido y Seguro.",
+      "why-gourde-text":"Con el uso de una etiqueta gourde, los usuarios pueden enviar y recibir dinero fácilmente. Bajo costo, instantáneo y seguro.",
 
       "create-merchant-header": "Crea una cuenta de comerciante hoy",
       "create-merchant-text": "La aplicación Gourde ofrece a los comerciantes acceso ilimitado a sus propias tiendas gourde y transacciones completas",
@@ -22,15 +23,15 @@
         "safe-data-text": "Desde bloqueos de verificación hasta encriptación de datos, tomamos medidas para asegurarnos de que su dinero e información estén seguros.",
 
 
-      "fun-better": "Diversión. Mejor. Seguro",
+      "fun-better": "Solicitud. Recibir. Pagar",
       "giving-undeserved": "Dando a los haitianos no merecidos acceso a servicios financieros gratuitos",
 
       "nav": {
         "faqs": "FAQs",
-    "privacy": "Privacy",
-    "terms-and-conditions": "Terms Of Use",
-    "contact-us": "Contact Us",
-    "press-kit": "Press Kit"
+        "privacy": "Política de Privacidad",
+        "terms-and-conditions": "Condiciones de Uso",
+        "contact-us": "Póngase en contacto con nosotros",
+        "press-kit": "Carpeta de prensa"
       },
 
       "privacy": {
@@ -61,7 +62,7 @@
       },
 
       "press-kit":{
-        "desc":  "<p>La aplicación Gourde le permite recibir dinero internacional, ahorrarlo y compartirlo de manera más eficiente con familiares y amigos. Nos preocupa proporcionar recursos financieros a la clase baja de Haití, especialmente a los haitianos no bancarizados.</p>",
+        "desc":  "<p>La billetera móvil de la aplicación Gourde permite a los usuarios pagar bienes y servicios, enviar y recibir dinero y pagar facturas con sus teléfonos móviles. La plataforma está diseñada para ser fácil de usar, con una interfaz simple e intuitiva que facilita su uso incluso para las personas que no están familiarizadas con los pagos digitales.</p>",
         "logo-marks": "Marcas del logotipo",
         "product-screens": "Pantallas de productos",
         "founder": "Fundador y CEO",

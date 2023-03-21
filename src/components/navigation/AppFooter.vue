@@ -29,13 +29,13 @@
       </ul>
 
       <div class="social-links">
-        <a href="javascript:void(0)"
+        <a target="_blank" href="https://www.facebook.com/gourdeapp"
           ><i class="fa fa-facebook" aria-hidden="true"></i
         ></a>
-        <a href="javascript:void(0)">
+        <a target="_blank" href="https://www.instagram.com/gourdeapp/">
           <i class="fa fa-instagram" aria-hidden="true"></i>
         </a>
-        <a href="javascript:void(0)">
+        <a target="_blank" href="https://twitter.com/GourdeApp">
           <i class="fa fa-twitter" aria-hidden="true"></i>
         </a>
       </div>
