@@ -5,30 +5,30 @@
   "french": "French",
   "spanish": "Spanish",
 
-  "btn-text": "Join our Waitlist",
+  "btn-text": "Get on our waiting list",
 
   "hero-text": "Receive Cash quicker through your smartphone in Haiti",
-  "hero-desc": "Gourde App is a mobile wallet platform designed to enable digital payments and money transfer in Haiti.",
+  "hero-desc": "Gourde App is a service designed to allow underserved communities in Haiti to maximize the return on aid they receive from the international community.",
   "launching-soon": "We are Launching soon",
   "hot": "hot",
 
   "why-gourde": "Why Gourde App",
   "transfer": "Transfer",
-  "fast-better": "Fast, Better and Secure",
-  "why-gourde-text": "With the use of a gourde tag, users can easily send and receive money. Free, Fast and Safe.",
+  "fast-better": "Our financial services are decentralized.",
+  "why-gourde-text": "With the use of a gourde tag, users can easily send and receive money. Low cost, Instant, and Safe.",
 
   "create-merchant-header": "Create a merchant account today",
   "create-merchant-text": "Gourde App offers merchants unlimited access to their own gourde stores and complete transactions.",
   "safe-data-header": "Your data is safe with us",
   "safe-data-text": "From verification locks to data encryption, we take steps to make sure your money and information are safe.",
 
-  "fun-better": "Fun. Better. Secure",
-  "giving-undeserved": "Giving undeserved Haitians access to free Financial services",
+  "fun-better": "Request. Receive. Pay",
+  "giving-undeserved": "Giving undeserved Haitians access to free Financial services.",
 
   "nav": {
     "faqs": "FAQs",
-    "privacy": "Privacy",
-    "terms-and-conditions": "Terms Of Use",
+    "privacy": "Privacy Policy",
+    "terms-and-conditions": "Terms of Use",
     "contact-us": "Contact Us",
     "press-kit": "Press Kit"
   },
@@ -44,7 +44,7 @@
     "header-one-b": " Information you provide us by registering for an account",
     "body-text-one-b": "<p>In addition to the information provided automatically by your browser when you visit the Site, to become a subscriber to the Service you will need to create a personal profile. You can create a profile by registering with the Service and entering your email address, and creating a user name and a password. By registering, you are authorizing us to collect, store and use your email address in accordance with this Privacy Policy.</p>",
     "header-one-c": "Children’s Privacy",
-    "body-text-one-c": "<p>The Site and the Service are not directed to anyone under the age of 13. The Site does not knowingly collect or solicit information from anyone under the age of 13, or allow anyone under the age of 13 to sign up for the Service. In the event that we learn that we have gathered personal information from anyone under the age of 13 without the consent of a parent or guardian, we will delete that information as soon as possible. If you believe we have collected such information, please contact us at <a href='mailto:contact@gourdeapp.com'>contact@gourdeapp.com</a>.</p>",
+    "body-text-one-c": "<p>The Site and the Service are not directed to anyone under the age of 18. The Site does not knowingly collect or solicit information from anyone under the age of 18, or allow anyone under the age of 13 to sign up for the Service. In the event that we learn that we have gathered personal information from anyone under the age of 18 without the consent of a parent or guardian, we will delete that information as soon as possible. If you believe we have collected such information, please contact us at <a href='mailto:contact@gourdeapp.com'>contact@gourdeapp.com</a>.</p>",
     "header-two": "How we use and share information",
     "body-text-two": "<p><em>Personal Information:</em><pre></pre> Except as otherwise stated in this Privacy Policy, we do not sell, trade, rent or otherwise share for marketing purposes your Personal Information with third parties without your consent. We do share Personal Information with vendors who are performing services for the Company, such as the servers for our email communications who are provided access to the user's email address for purposes of sending emails from us. Those vendors use your Personal Information only at our direction and in accordance with our Privacy Policy. In general, the Personal Information you provide to us is used to help us communicate with you. For example, we use Personal Information to contact users in response to questions, solicit feedback from users, provide technical support, and inform users about promotional offers. <pre></pre> We may share Personal Information with outside parties if we have a good-faith belief that access, use, preservation or disclosure of the information is reasonably necessary to meet any applicable legal process or enforceable governmental request; to enforce applicable Terms of Service, including investigation of potential violations; address fraud, security or technical concerns; or to protect against harm to the rights, property, or safety of our users or the public as required or permitted by law. <pre></pre> <em>Non-Personal Information</em> <br> In general, we use Non-Personal Information to help us improve the Service and customize the user experience. We also aggregate Non-Personal Information in order to track trends and analyze use patterns on the Site. This Privacy Policy does not limit in any way our use or disclosure of Non-Personal Information and we reserve the right to use and disclose such Non-Personal Information to our partners, advertisers and other third parties at our discretion. <pre></pre> In the event we undergo a business transaction such as a merger, acquisition by another company, or sale of all or a portion of our assets, your Personal Information may be among the assets transferred. You acknowledge and consent that such transfers may occur and are permitted by this Privacy Policy, and that any acquirer of our assets may continue to process your Personal Information as set forth in this Privacy Policy. If our information practices change at any time in the future, we will post the policy changes to the Site so that you may opt out of the new information practices. We suggest that you check the Site periodically if you are concerned about how your information is used.</p>",
     "header-three": "How we protect information",
@@ -59,7 +59,6 @@
     "contact-us-text": "<p>If you have any questions regarding this Privacy Policy or the practices of this Site, please contact us by sending an email to <a href='mailto:contact@gourdeapp.com'>contact@gourdeapp.com</a>.</p>",
     "last-updated": "Last Updated: This Privacy Policy was last updated on 02/24/2023."
   },
-
   "press-kit":{
     "desc":  "<p>Gourde App’s mobile wallet allows users to pay for goods and services, send and receive money. and pay bills using their mobile phones. The platform is designed to be user-friendly, with a simple and intuitive interface that makes it easy to use even for people who are new to digital payments.</p>",
     "logo-marks": "Logo Marks",
