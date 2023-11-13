@@ -3,7 +3,8 @@
     <div class="container">
       <div class="app-header">
         <router-link to="/">
-          <img src="@/assets/img/logo-spread.svg" alt="" />
+          <!-- <img src="@/assets/img/logo-spread.svg" alt="" /> -->
+          Logo here
         </router-link>
         <div class="d-flex align-items-center" style="gap: 30px">
           <el-dropdown trigger="click">

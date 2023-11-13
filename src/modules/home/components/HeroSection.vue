@@ -29,7 +29,7 @@
     </div>
 
     <div class="text-right w-100 hero-img-container align-self-end">
-      <img class="hero-img shadow-lg" src="@/assets/img/hero-img.png" alt="" />
+      <img class="hero-img shadow-lg" src="@/assets/img/hero.svg" alt="" />
     </div>
   </div>
 </template>

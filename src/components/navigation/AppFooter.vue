@@ -8,24 +8,24 @@
         <!-- <li class="menu-item">
           {{ $t("nav.faqs") }}
         </li> -->
-        <li class="menu-item">
+        <!-- <li class="menu-item">
           <router-link to="/privacy-policy">{{
             $t("nav.privacy")
           }}</router-link>
-        </li>
-        <li class="menu-item">
+        </li> -->
+        <!-- <li class="menu-item">
           <router-link to="terms-of-use">{{
             $t("nav.terms-and-conditions")
           }}</router-link>
-        </li>
-        <li class="menu-item">
+        </li> -->
+        <!-- <li class="menu-item">
           <router-link to="/contact-us">
             {{ $t("nav.contact-us") }}</router-link
           >
-        </li>
-        <li class="menu-item">
+        </li> -->
+        <!-- <li class="menu-item">
           <router-link to="/press-kit"> {{ $t("nav.press-kit") }}</router-link>
-        </li>
+        </li> -->
       </ul>
 
       <div class="social-links">
