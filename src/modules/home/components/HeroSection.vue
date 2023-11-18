@@ -15,7 +15,9 @@
       <p class="body-text">
         {{ $t("hero-desc") }}
       </p>
-      <router-link to="/join-waitlist">
+      <!-- <router-link to="/join-waitlist"> -->
+
+      <a href="https://forms.fillout.com/t/uqCTGJDXGxus">
         <button
           class="primary-btn d-flex align-items-center"
           style="gap: 3px; width: max-content"
@@ -25,8 +27,14 @@
             <i-icon icon="ic:round-arrow-outward" width="13px" />
           </span>
         </button>
-      </router-link>
+      </a>
+
+      <!-- </router-link> -->
     </div>
+
+    <!-- <div>
+      <h2>hello</h2>
+    </div> -->
 
     <div class="text-right w-100 hero-img-container align-self-end">
       <img class="hero-img shadow-lg" src="@/assets/img/hero.svg" alt="" />

@@ -7,37 +7,10 @@
           Logo here
         </router-link>
         <div class="d-flex align-items-center" style="gap: 30px">
-          <el-dropdown trigger="click">
-            <span
-              class="el-dropdown-link d-flex align-items-center"
-              style="gap: 3px"
-            >
-              <country-flag :country="selected_flag" size="small" />
-              <span>{{
-                $t("selected_language", { language: selected_language })
-              }}</span>
-              <i class="el-icon-arrow-down el-icon--right"></i>
-            </span>
-            <el-dropdown-menu slot="dropdown">
-              <el-dropdown-item
-                class="text-capitalize drop-item"
-                v-for="(lang, i) in languageArray"
-                :key="`lang${i}`"
-                :value="lang"
-              >
-                <!-- <span> {{ lang + "," + selected }}</span> -->
-                <span
-                  :role="lang === selected ? '' : 'button'"
-                  :class="{ active: lang === selected }"
-                  @click="changeLang(lang)"
-                  >{{ $t(lang) }}</span
-                >
-              </el-dropdown-item>
-            </el-dropdown-menu>
-          </el-dropdown>
-
           <div class="join-waitlist">
-            <router-link to="/join-waitlist">
+            <!-- <router-link to="/join-waitlist"> -->
+
+            <a href="https://forms.fillout.com/t/uqCTGJDXGxus">
               <button
                 class="primary-btn d-flex align-items-center"
                 style="gap: 3px"
@@ -47,7 +20,9 @@
                   <i-icon icon="ic:round-arrow-outward" width="13px" />
                 </span>
               </button>
-            </router-link>
+            </a>
+
+            <!-- </router-link> -->
           </div>
         </div>
       </div>

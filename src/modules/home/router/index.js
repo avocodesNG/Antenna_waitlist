@@ -1,11 +1,31 @@
 const Home = () => import("@/modules/home/views/indexView.vue");
 const PrivacyPolicy = () => import("@/modules/home/views/privacyPolicy");
 const PressKit = () => import("@/modules/home/views/pressKit");
-const WaitList = () => import("@/modules/home/views/waitList");
+// const WaitList = () => import("@/modules/home/views/waitList");
+// const WaitList = () => import("@/modules/home/components/joinUs");
+
 const ContactUs = () => import("@/modules/home/views/contactUs");
 const TermsOfUse = () => import("@/modules/home/views/termsOfUse");
 
+const WaitList = {
+  beforeEnter() {
+    window.location.href = "https://forms.fillout.com/t/uqCTGJDXGxus";
+  },
+};
+
+// const Pills = () => import("@/modules/home/components/customPills");
+
 const routes = [
+  // {
+  //   path: "/pills",
+  //   name: "home",
+  //   component: Pills,
+  //   // meta: {
+  //   //   layout: "HomeLayout",
+  //   //   parent: "home",
+  //   // },
+  // },
+
   {
     path: "/",
     name: "home",
@@ -30,10 +50,10 @@ const routes = [
     path: "/join-waitlist",
     name: "waitlist",
     component: WaitList,
-    meta: {
-      layout: "HomeLayout",
-      parent: "home",
-    },
+    // meta: {
+    //   layout: "HomeLayout",
+    //   parent: "home",
+    // },
   },
 
   {

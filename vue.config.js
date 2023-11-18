@@ -10,4 +10,6 @@ module.exports = defineConfig({
   //     },
   //   },
   // ],
+
+  // rules: { 'prettier/prettier': 'off' },
 });
