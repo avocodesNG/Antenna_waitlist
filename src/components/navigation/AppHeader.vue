@@ -1,29 +1,45 @@
 <template>
-  <div class="app-header-container sticky-top bg-white">
-    <div class="container">
-      <div class="app-header">
-        <router-link to="/">
-          <!-- <img src="@/assets/img/logo-spread.svg" alt="" /> -->
-          Logo here
-        </router-link>
-        <div class="d-flex align-items-center" style="gap: 30px">
-          <div class="join-waitlist">
-            <!-- <router-link to="/join-waitlist"> -->
+  <!-- <div class="app-header-container sticky-top bg-primary">
+    <div class="container-fluid">
+      <div class="container-fluid">
+        <div class="d-flex justify-content-between">
+          <router-link to="/">
+          
+            <img
+              src="@/assets/img/logoAntenna.png"
+              alt=""
+              class="text-primary img"
+            />
+          </router-link>
 
-            <a href="https://forms.fillout.com/t/uqCTGJDXGxus">
-              <button
-                class="primary-btn d-flex align-items-center"
-                style="gap: 3px"
-              >
-                <span>{{ $t("btn-text") }}</span>
-                <span>
-                  <i-icon icon="ic:round-arrow-outward" width="13px" />
-                </span>
-              </button>
-            </a>
+          <a
+            href="https://forms.fillout.com/t/uqCTGJDXGxus"
+            class="btn btn-light"
+            >ght</a
+          >
+        </div>
+      </div>
+    </div>
+  </div> -->
+  <div class="container-fluid sticky-top">
+    <div class="">
+      <div class="d-flex justify-content-between">
+        <div>
+          <router-link to="/">
+            <img
+              src="@/assets/img/logoAntenna.png"
+              alt=""
+              class="text-primary img"
+            />
+          </router-link>
+        </div>
 
-            <!-- </router-link> -->
-          </div>
+        <div>
+          <a
+            href="https://forms.fillout.com/t/uqCTGJDXGxus"
+            class="btn btn-light text-primary"
+            >Join us now</a
+          >
         </div>
       </div>
     </div>
@@ -82,3 +98,20 @@ export default {
   },
 };
 </script>
+
+<style>
+.sticky-top {
+  background-color: #00478f;
+}
+
+.img {
+  padding: 0% !important;
+  margin-bottom: 5%;
+  margin-left: 22% !important;
+}
+
+.btn {
+  margin-top: 15%;
+  margin-right: 8rem !important;
+}
+</style>

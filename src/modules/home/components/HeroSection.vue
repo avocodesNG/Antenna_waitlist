@@ -13,7 +13,12 @@
         {{ $t("hero-text") }}
       </h1>
       <p class="body-text">
-        {{ $t("hero-desc") }}
+        <!-- {{ $t("hero-desc") }} -->
+        Our mission is to redifine the way individuals and businesses connect.
+        Imagine a world where communication is effortless inquiries are
+        simplified, and support is just a click away. <br />
+        Antenna is your gateway to this future, and we invite you to be part of
+        the revolution!
       </p>
       <!-- <router-link to="/join-waitlist"> -->
 
@@ -37,7 +42,7 @@
     </div> -->
 
     <div class="text-right w-100 hero-img-container align-self-end">
-      <img class="hero-img shadow-lg" src="@/assets/img/hero.svg" alt="" />
+      <img class="hero-img shadow-lg" src="@/assets/img/Waves.svg" alt="" />
     </div>
   </div>
 </template>
