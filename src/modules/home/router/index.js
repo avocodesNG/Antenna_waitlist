@@ -2,7 +2,7 @@ const Home = () => import("@/modules/home/views/indexView.vue");
 const PrivacyPolicy = () => import("@/modules/home/views/privacyPolicy");
 const PressKit = () => import("@/modules/home/views/pressKit");
 // const WaitList = () => import("@/modules/home/views/waitList");
-// const WaitList = () => import("@/modules/home/components/joinUs");
+const Pills = () => import("@/modules/home/components/joinUs");
 
 const ContactUs = () => import("@/modules/home/views/contactUs");
 const TermsOfUse = () => import("@/modules/home/views/termsOfUse");
@@ -16,15 +16,15 @@ const WaitList = {
 // const Pills = () => import("@/modules/home/components/customPills");
 
 const routes = [
-  // {
-  //   path: "/pills",
-  //   name: "home",
-  //   component: Pills,
-  //   // meta: {
-  //   //   layout: "HomeLayout",
-  //   //   parent: "home",
-  //   // },
-  // },
+  {
+    path: "/pills",
+    name: "pills",
+    component: Pills,
+    // meta: {
+    //   layout: "HomeLayout",
+    //   parent: "home",
+    // },
+  },
 
   {
     path: "/",
@@ -34,6 +34,13 @@ const routes = [
       layout: "HomeLayout",
       parent: "home",
     },
+
+    children: [
+      {
+        path: "pills", // Nested route path
+        component: Pills,
+      },
+    ],
   },
 
   {

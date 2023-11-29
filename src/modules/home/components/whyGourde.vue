@@ -1,9 +1,16 @@
 <template>
   <div>
-    <h2 class="text-center header-text">{{ $t("why-gourde") }}</h2>
+    <h2 class="text-center header-text" style="margin-top: 20% !important">
+      {{ $t("why-gourde") }}
+    </h2>
     <p class="body-text text-center">{{ $t("fast-better") }}</p>
 
-    <div class="">
+    <router-link><h2>Business</h2></router-link>
+    <router-link to="pills" class="nav-link" href="#" style="margin-left: 10%"
+      >Users</router-link
+    >
+
+    <div class="" v-if="!isUsersRoute">
       <div class="why-gourde mt-5">
         <div
           class="why-gourde-content container-fluid d-flex justify-content-between align-items-center"
@@ -20,117 +27,73 @@
             <!-- </router-link> -->
           </div>
           <div class="why-gourde-img align-self-end w-100 text-right">
-            <img src="@/assets/img/why-gourde-img.png" alt="" />
+            <img src="@/assets/img/buz.png" alt="" />
           </div>
         </div>
       </div>
     </div>
 
-    <div class="container">
-      <h2
-        class="text-center"
-        style="
-          padding-top: 15% !important;
-          font-size: xx-large;
-          font-weight: 900;
-        "
-      >
-        Antenna-Customers
-      </h2>
-      <div class="row row1" style="margin-top: 9%">
-        <div class="col-md-6">
-          <div class="">
-            <img
-              class="shadow-lg"
-              src="@/assets/img/messages.png"
-              alt=""
-              style="width: 300px; height: 500px"
-            />
+    <div
+      class="row wrapper"
+      style="
+        margin-top: 15%;
+        background-color: rgb(161, 188, 188);
+        border-radius: 50px !important;
+        height: 100vh;
+      "
+    >
+      <div class="col-md-6">
+        <div class="row">
+          <h1 class="pt-5">Antenna-Business</h1>
+          <div class="" style="margin-top: 15%">
+            <h3 class="">Effortless Interaction</h3>
+            <p class="" style="font-weight: bold">
+              Seamlessly reach out to businesses for inquiries, support, or
+              engaging conversations
+            </p>
           </div>
-        </div>
-
-        <div class="col-md-6 wrapper">
-          <div class="row" style="margin-right: 10%">
-            <div class="ml-5 wrapper1">
-              <h3 class="text-center">Effortless Connections</h3>
-              <p class="text-center">
-                Seamlessly reach out to businesses for inquiries, support, or
-                engaging conversations
-              </p>
-            </div>
-            <div class="mt-4">
-              <h3 class="text-center">Enhanced Business Communication</h3>
-              <p class="text-center">
-                Businesses, elevate your customer <br />
-                interactions with our suite of effective <br />
-                communication tools
-              </p>
-            </div>
-            <div class="mt-3 wrapper3" style="margin-left: 30%">
-              <h3 class="text-center">Cultivate Growth</h3>
-              <p class="text-center">
-                Antenna is more than a platform; it's a catalyst for business
-                expansion <br />
-                and brand loyalty.
-              </p>
-            </div>
+          <div class="" style="margin-top: 15%">
+            <h3 class="">Seamless Customer Support</h3>
+            <p class="" style="font-weight: bold">
+              Deliver exceptional customer service with Antenna.Address
+              inquiries, resolve issues, and offer support in real-time,
+              allwithin a single, intuitive interface.
+            </p>
+          </div>
+          <div class="" style="margin-top: 15%">
+            <h3 class="">Cultivate Growth</h3>
+            <p class="" style="font-weight: bold">
+              Expand your customer base, increase brand loyalty, and seize
+              opportunities for expansion through Antenna's comprehensive
+              features.
+            </p>
           </div>
         </div>
       </div>
-    </div>
 
-    <div class="container mt-5">
-      <h2
-        class="text-center"
-        style="
-          padding-top: 10% !important;
-          font-size: xx-large;
-          font-weight: 900;
-        "
-      >
-        Antenna-Business
-      </h2>
-      <div class="row row2" style="margin-top: 9%; margin-bottom: 5%">
-        <div class="col-md-6">
-          <div class="row" style="margin-right: 10%">
-            <div class="">
-              <h3 class="text-center">Effortless Interaction</h3>
-              <p class="text-center">
-                Seamlessly reach out to <br />businesses for inquiries, <br />
-                support, or <br />
-                engaging conversations
-              </p>
-            </div>
-            <div class="ml-3">
-              <h3 class="text-center">Seamless Customer Support</h3>
-              <p class="text-center">
-                Deliver exceptional customer <br />
-                service with Antenna. <br />
-                Address inquiries, resolve issues, <br />
-                and offer support in real-time, all within a single, <br />
-                intuitive interface.
-              </p>
-            </div>
-            <div class="mt-3 ml-3">
-              <h3 class="text-center">Cultivate Growth</h3>
-              <p class="text-center">
-                Expand your customer base, <br />
-                increase brand loyalty, and seize opportunities for expansion
-                <br />
-                through Antenna's comprehensive features.
-              </p>
-            </div>
+      <div class="col-md-6">
+        <div class="row">
+          <h1 class="pt-5">Antenna-Customers</h1>
+          <div class="" style="margin-top: 15%">
+            <h3 class="">Effortless Connections</h3>
+            <p class="" style="font-weight: bold">
+              Seamlessly reach out to businesses for inquiries, support, or
+              engaging conversations
+            </p>
           </div>
-        </div>
-
-        <div class="col-md-6 imgWrapper">
-          <div class="div2" style="margin-left: 35%">
-            <img
-              class="shadow-lg"
-              src="@/assets/img/messages.png"
-              alt=""
-              style="width: 300px; height: 500px"
-            />
+          <div class="" style="margin-top: 15%">
+            <h3 class="">Enhanced Business Communication</h3>
+            <p class="" style="font-weight: bold">
+              Businesses, elevate your customer interactions with our suite of
+              effective communication tools
+            </p>
+          </div>
+          <div class="wrapper3" style="margin-top: 15%">
+            <h3 class="">Cultivate Growth</h3>
+            <p class="" style="font-weight: bold">
+              Antenna is more than a platform; it's a catalyst for business
+              expansion and brand loyalty.
+            </p>
           </div>
         </div>
       </div>
@@ -139,7 +102,13 @@
 </template>
 
 <script>
-export default {};
+export default {
+  computed: {
+    isUsersRoute() {
+      return this.$route.path.includes("/pills");
+    },
+  },
+};
 </script>
 
 <style scoped>
@@ -149,28 +118,28 @@ h3 {
 }
 
 p {
-  color: rgb(140, 140, 140);
+  color: rgb(226, 226, 226);
+  font-size: large;
 }
 
 @media (max-width: 990px) {
-  .div2 {
-    margin: 0% !important;
-  }
-  .wrapper3 {
-    margin: 0% !important;
-    text-align: center !important;
-  }
-
-  .wrapper1 {
-    margin: 0% !important;
-    text-align: center !important;
-  }
-
   .wrapper {
-    margin-top: 10%;
+    text-align: center;
+    height: 170vh !important;
   }
-  .imgWrapper {
-    margin-top: 10%;
+
+  h1 {
+    font-size: 1.5rem;
+    text-align: center !important;
+    /* padding-top:  !important; */
+  }
+
+  .wrapper h3 {
+    font-size: 1.2rem; /* Adjust font size for smaller screens */
+  }
+
+  .wrapper p {
+    font-size: 1rem; /* Adjust font size for smaller screens */
   }
 }
 </style>

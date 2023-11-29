@@ -1,37 +1,24 @@
 <template>
-  <div class="container">
-    <div class="d-flex justify-content-center">
-      <form>
-        <div class="mb-3">
-          <label for="exampleInputEmail1" class="form-label"
-            >Email address</label
-          >
-          <input
-            type="email"
-            class="form-control"
-            id="exampleInputEmail1"
-            aria-describedby="emailHelp"
-          />
-          <div id="emailHelp" class="form-text">
-            We'll never share your email with anyone else.
-          </div>
+  <div class="">
+    <div class="why-gourde mt-5">
+      <div
+        class="why-gourde-content container-fluid d-flex justify-content-between align-items-center"
+      >
+        <div class="w-50 d-flex flex-column" style="gap: 20px">
+          <h2 class="header-text text-white">{{ $t("transfer") }}</h2>
+          <p class="body-text text-white">
+            {{ $t("why-gourde-text") }}
+          </p>
+          <!-- <router-link to="/join-waitlist"> -->
+          <a href="https://forms.fillout.com/t/uqCTGJDXGxus">
+            <button class="secondary-btn">{{ $t("btn-text") }}</button>
+          </a>
+          <!-- </router-link> -->
         </div>
-        <div class="mb-3">
-          <label for="exampleInputPassword1" class="form-label">Password</label>
-          <input
-            type="password"
-            class="form-control"
-            id="exampleInputPassword1"
-          />
+        <div class="why-gourde-img align-self-end w-100 text-right">
+          <img src="@/assets/img/buz.png" alt="" />
         </div>
-        <div class="mb-3 form-check">
-          <input type="checkbox" class="form-check-input" id="exampleCheck1" />
-          <label class="form-check-label" for="exampleCheck1"
-            >Check me out</label
-          >
-        </div>
-        <button type="submit" class="btn btn-primary">Submit</button>
-      </form>
+      </div>
     </div>
   </div>
 </template>

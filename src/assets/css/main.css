@@ -23,8 +23,12 @@
 
 
 .hero-section .hero-img {
-    width: 350px;
+    width: 30rem;
     height: 50%;
+}
+
+.hero-img{
+    border-radius: 6%;
 }
 
 .hero-section .hot-tag {
@@ -61,8 +65,8 @@
 }
 
 .why-gourde-img img {
-    width: 300px;
-    height: 60%;
+    width: 25rem;
+    height: 21rem;
 }
 
 .why-gourde-content {

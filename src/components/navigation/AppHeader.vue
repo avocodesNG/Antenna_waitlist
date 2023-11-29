@@ -26,18 +26,14 @@
       <div class="d-flex justify-content-between">
         <div>
           <router-link to="/">
-            <img
-              src="@/assets/img/logoAntenna.png"
-              alt=""
-              class="text-primary img"
-            />
+            <img src="@/assets/img/logo2.png" alt="" class="text-primary img" />
           </router-link>
         </div>
 
         <div>
           <a
             href="https://forms.fillout.com/t/uqCTGJDXGxus"
-            class="btn btn-light text-primary"
+            class="btn btn-primary text-light"
             >Join us now</a
           >
         </div>
@@ -101,17 +97,34 @@ export default {
 
 <style>
 .sticky-top {
-  background-color: #00478f;
+  background-color: #ffffff;
 }
 
 .img {
   padding: 0% !important;
-  margin-bottom: 5%;
-  margin-left: 22% !important;
+  /* margin-top: 2%; */
+  margin-left: 16% !important;
+  width: 20%;
 }
 
 .btn {
-  margin-top: 15%;
+  margin-top: 9%;
   margin-right: 8rem !important;
+}
+
+@media (max-width: 990px) {
+  .btn {
+    margin-top: 15%;
+    margin-right: 1rem !important;
+    /* height: 65%; */
+    /* width: 50%; */
+  }
+
+  .img {
+    padding: 0% !important;
+    margin-top: 2%;
+    margin-left: 16% !important;
+    width: 50%;
+  }
 }
 </style>
