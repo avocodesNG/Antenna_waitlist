@@ -67,12 +67,12 @@ export default {};
   }
   50% {
     transform: translateY(
-      -10px
+      -20px
     ); /* Adjust the distance for the bounce effect */
   }
 }
 
 .animated-bounce {
-  animation: bounce 4s infinite; /* Adjust animation duration and iteration as needed */
+  animation: bounce 8s infinite; /* Adjust animation duration and iteration as needed */
 }
 </style>

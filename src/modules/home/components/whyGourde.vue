@@ -54,9 +54,10 @@
           >
             <h3 class="">Effortless Interaction</h3>
             <p class="paragraph" style="font-weight: bold">
-              Seamlessly reach out to businesses <br />
-              for inquiries, support, or engaging <br />
-              conversations
+              Antenna provides businesses with <br />
+              a user-friendly platform that simplifies <br />
+              communication with customers. Engage effortlessly, <br />
+              respond promptly, and build lasting connections.
             </p>
           </div>
           <div
@@ -103,25 +104,20 @@
             class="card-wrapper"
             style="margin-top: 15%; padding-left: 12% !important"
           >
-            <h3 class="paragraph">
-              Enhanced Business <br />
-              Communication
-            </h3>
+            <h3 class="paragraph">Limitless Access</h3>
             <p class="paragraph" style="font-weight: bold">
-              Businesses, elevate your customer <br />
-              interactions with our suite of effective <br />
-              communication tools
+              Discover and connect with any <br />
+              company, anywhere any where, at your fingertips.
             </p>
           </div>
           <div
             class="wrapper3 card-wrapper"
             style="margin-top: 15%; padding-left: 12% !important"
           >
-            <h3 class="">Cultivate Growth</h3>
+            <h3 class="">Community</h3>
             <p class="paragraph" style="font-weight: bold">
-              Antenna is more than a platform; <br />
-              it's a catalyst for business expansion <br />
-              and brand loyalty.
+              Engage with other users with similar <br />
+              interest and get quick support and answers to your
             </p>
           </div>
         </div>
