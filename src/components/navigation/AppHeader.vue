@@ -30,11 +30,12 @@
           </router-link>
         </div>
 
-        <div>
+        <div class="logoholder">
           <a
             href="https://forms.fillout.com/t/uqCTGJDXGxus"
-            class="btn btn-primary text-light"
-            >Join us now</a
+            class="btn text-light"
+            style="background-color: #00478f"
+            >Join Waitlist</a
           >
         </div>
       </div>
@@ -113,6 +114,10 @@ export default {
 }
 
 @media (max-width: 990px) {
+  .logoholder {
+    display: none;
+  }
+
   .btn {
     margin-top: 15%;
     margin-right: 1rem !important;

@@ -3,7 +3,9 @@
     <div class="d-flex flex-column" style="gap: 14px">
       <div class="launching-soon">
         <span class="hot-tag">{{ $t("hot") }} </span>
-        <span class="body-text">{{ $t("launching-soon") }}</span>
+        <span class="body-text">
+          <a href="https://forms.fillout.com/t/uqCTGJDXGxus">Join Waitlist</a>
+        </span>
         <span>
           <i-icon icon="ic:round-arrow-forward" />
         </span>
@@ -44,7 +46,11 @@
     </div> -->
 
     <div class="text-right hero-img-container align-self-end">
-      <img class="hero-img shadow-lg" src="@/assets/img/leftBar.jpg" alt="" />
+      <img
+        class="hero-img shadow-lg animated-bounce"
+        src="@/assets/img/leftBar.jpg"
+        alt=""
+      />
     </div>
   </div>
 </template>
@@ -53,4 +59,20 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translateY(0);
+  }
+  50% {
+    transform: translateY(
+      -10px
+    ); /* Adjust the distance for the bounce effect */
+  }
+}
+
+.animated-bounce {
+  animation: bounce 4s infinite; /* Adjust animation duration and iteration as needed */
+}
+</style>

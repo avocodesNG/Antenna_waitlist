@@ -1,49 +1,29 @@
 <template>
-  <div class="app-footer py-4 text-center container">
-    <div>
-      <ul
-        class="mb-0 d-flex align-items-center justify-content-center"
-        style="gap: 20px"
-      >
-        <!-- <li class="menu-item">
-          {{ $t("nav.faqs") }}
-        </li> -->
-        <!-- <li class="menu-item">
-          <router-link to="/privacy-policy">{{
-            $t("nav.privacy")
-          }}</router-link>
-        </li> -->
-        <!-- <li class="menu-item">
-          <router-link to="terms-of-use">{{
-            $t("nav.terms-and-conditions")
-          }}</router-link>
-        </li> -->
-        <!-- <li class="menu-item">
-          <router-link to="/contact-us">
-            {{ $t("nav.contact-us") }}</router-link
-          >
-        </li> -->
-        <!-- <li class="menu-item">
-          <router-link to="/press-kit"> {{ $t("nav.press-kit") }}</router-link>
-        </li> -->
-      </ul>
-
-      <div class="social-links">
-        <a target="_blank" href="https://www.facebook.com/gourdeapp"
-          ><i class="fa fa-facebook" aria-hidden="true"></i
-        ></a>
-        <a target="_blank" href="https://www.instagram.com/gourdeapp/">
-          <i class="fa fa-instagram" aria-hidden="true"></i>
-        </a>
-        <a target="_blank" href="https://twitter.com/GourdeApp">
-          <i class="fa fa-twitter" aria-hidden="true"></i>
-        </a>
+  <div class="app-footer py-4 text-center container mt-5">
+    <footer class="text-center bg-body-tertiary row">
+      <div class="col-md-6">
+        <div class="d-flex justify-content-around">
+          <span><i class="bi bi-linkedin"></i></span>
+          <span><i class="bi bi-twitter-x"></i></span>
+          <span><i class="bi bi-instagram"></i></span>
+        </div>
       </div>
-    </div>
+
+      <div class="col-md-6 wrapper2">
+        <!-- Copyright -->
+        <div class="text-center p-3">
+          © 2023 Copyright:
+          <a class="text-body" href="https://antenna.so/">Antenna</a>
+        </div>
+        <!-- Copyright -->
+      </div>
+    </footer>
   </div>
 </template>
 
 <script>
+import "bootstrap-icons/font/bootstrap-icons.css";
+
 export default {
   data: () => {
     return {
@@ -74,4 +54,15 @@ export default {
 };
 </script>
 
-<style></style>
+<style scoped>
+.bi {
+  font-size: xx-large !important;
+  color: blue;
+}
+
+/* @media (max-width: 990px) {
+  .wrapper {
+    margin-top: 40rem !important;
+  }
+} */
+</style>

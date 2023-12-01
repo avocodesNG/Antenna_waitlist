@@ -6,9 +6,12 @@
     <p class="body-text text-center">{{ $t("fast-better") }}</p>
 
     <router-link><h2>Business</h2></router-link>
-    <router-link to="pills" class="nav-link" href="#" style="margin-left: 10%"
-      >Users</router-link
-    >
+    <router-link
+      to="pills"
+      class="nav-link"
+      href="#"
+      style="margin-left: 10%"
+    ></router-link>
 
     <div class="" v-if="!isUsersRoute">
       <div class="why-gourde mt-5">
@@ -37,35 +40,46 @@
       class="row wrapper"
       style="
         margin-top: 15%;
-        background-color: rgb(161, 188, 188);
+        background-color: rgba(255, 245, 245, 0.478);
         border-radius: 50px !important;
         height: 100vh;
       "
     >
       <div class="col-md-6">
         <div class="row">
-          <h1 class="pt-5">Antenna-Business</h1>
-          <div class="" style="margin-top: 15%">
+          <h1 class="pt-5 pl-5 fw-bolder">Antenna 4 Business</h1>
+          <div
+            class="card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
             <h3 class="">Effortless Interaction</h3>
-            <p class="" style="font-weight: bold">
-              Seamlessly reach out to businesses for inquiries, support, or
-              engaging conversations
+            <p class="paragraph" style="font-weight: bold">
+              Seamlessly reach out to businesses <br />
+              for inquiries, support, or engaging <br />
+              conversations
             </p>
           </div>
-          <div class="" style="margin-top: 15%">
+          <div
+            class="card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
             <h3 class="">Seamless Customer Support</h3>
-            <p class="" style="font-weight: bold">
-              Deliver exceptional customer service with Antenna.Address
-              inquiries, resolve issues, and offer support in real-time,
-              allwithin a single, intuitive interface.
+            <p class="paragraph" style="font-weight: bold">
+              Deliver exceptional customer service with <br />
+              Antenna.Address inquiries, resolve issues, <br />
+              and offer support in real-time, allwithin a <br />
+              single, intuitive interface.
             </p>
           </div>
-          <div class="" style="margin-top: 15%">
+          <div
+            class="card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
             <h3 class="">Cultivate Growth</h3>
-            <p class="" style="font-weight: bold">
-              Expand your customer base, increase brand loyalty, and seize
-              opportunities for expansion through Antenna's comprehensive
-              features.
+            <p class="paragraph" style="font-weight: bold">
+              Expand your customer base, increase brand <br />
+              loyalty, and seize opportunities for expansion <br />
+              through Antenna's comprehensive features.
             </p>
           </div>
         </div>
@@ -73,26 +87,41 @@
 
       <div class="col-md-6">
         <div class="row">
-          <h1 class="pt-5">Antenna-Customers</h1>
-          <div class="" style="margin-top: 15%">
+          <h1 class="pt-5 pl-5 fw-bolder">Antenna 4 Customers</h1>
+          <div
+            class="card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
             <h3 class="">Effortless Connections</h3>
-            <p class="" style="font-weight: bold">
-              Seamlessly reach out to businesses for inquiries, support, or
-              engaging conversations
+            <p class="paragraph" style="font-weight: bold">
+              Seamlessly reach out to businesses <br />
+              for inquiries, support, or engaging <br />
+              conversations
             </p>
           </div>
-          <div class="" style="margin-top: 15%">
-            <h3 class="">Enhanced Business Communication</h3>
-            <p class="" style="font-weight: bold">
-              Businesses, elevate your customer interactions with our suite of
-              effective communication tools
+          <div
+            class="card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
+            <h3 class="paragraph">
+              Enhanced Business <br />
+              Communication
+            </h3>
+            <p class="paragraph" style="font-weight: bold">
+              Businesses, elevate your customer <br />
+              interactions with our suite of effective <br />
+              communication tools
             </p>
           </div>
-          <div class="wrapper3" style="margin-top: 15%">
+          <div
+            class="wrapper3 card-wrapper"
+            style="margin-top: 15%; padding-left: 12% !important"
+          >
             <h3 class="">Cultivate Growth</h3>
-            <p class="" style="font-weight: bold">
-              Antenna is more than a platform; it's a catalyst for business
-              expansion and brand loyalty.
+            <p class="paragraph" style="font-weight: bold">
+              Antenna is more than a platform; <br />
+              it's a catalyst for business expansion <br />
+              and brand loyalty.
             </p>
           </div>
         </div>
@@ -118,8 +147,10 @@ h3 {
 }
 
 p {
-  color: rgb(226, 226, 226);
-  font-size: large;
+  color: rgb(183, 177, 177);
+  font-size: medium;
+  font-weight: 100;
+  /* font-family: "Times New Roman", Times, serif; */
 }
 
 @media (max-width: 990px) {
@@ -135,11 +166,18 @@ p {
   }
 
   .wrapper h3 {
-    font-size: 1.2rem; /* Adjust font size for smaller screens */
+    font-size: 1.2rem;
+    /* font-weight: bolder !important; */
   }
 
-  .wrapper p {
-    font-size: 1rem; /* Adjust font size for smaller screens */
+  .paragraph {
+    font-size: 1rem;
+    color: rgb(198, 196, 196) !important;
+    margin-bottom: 0% !important;
+  }
+
+  .card-wrapper {
+    padding-left: 0% !important;
   }
 }
 </style>
