@@ -64,9 +64,12 @@ export default {
   margin-top: 10% !important;
 } */
 
-/* @media (max-width: 990px) {
-  .wrapper {
+@media (max-width: 990px) {
+  /* .wrapper {
     margin-top: 40rem !important;
+  } */
+  .app-footer {
+    margin-bottom: 28% !important;
   }
-} */
+}
 </style>

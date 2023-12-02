@@ -24,4 +24,10 @@ export default {};
 .download-app {
   margin-top: 10% !important;
 }
+
+@media (max-width: 990px) {
+  .download-app {
+    margin-top: 1% !important;
+  }
+}
 </style>
