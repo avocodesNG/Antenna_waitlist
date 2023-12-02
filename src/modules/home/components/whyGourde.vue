@@ -42,7 +42,7 @@
         margin-top: 15%;
         background-color: rgba(255, 245, 245, 0.478);
         border-radius: 50px !important;
-        height: 100vh;
+        /* height: 100vh; */
       "
     >
       <div class="col-md-6">
@@ -50,10 +50,10 @@
           <h1 class="pt-5 pl-5 fw-bolder">Antenna 4 Business</h1>
           <div
             class="card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="">Effortless Interaction</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Antenna provides businesses with <br />
               a user-friendly platform that simplifies <br />
               communication with customers. Engage effortlessly, <br />
@@ -62,10 +62,10 @@
           </div>
           <div
             class="card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="">Seamless Customer Support</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Deliver exceptional customer service with <br />
               Antenna.Address inquiries, resolve issues, <br />
               and offer support in real-time, allwithin a <br />
@@ -74,10 +74,10 @@
           </div>
           <div
             class="card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="">Cultivate Growth</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Expand your customer base, increase brand <br />
               loyalty, and seize opportunities for expansion <br />
               through Antenna's comprehensive features.
@@ -91,10 +91,10 @@
           <h1 class="pt-5 pl-5 fw-bolder">Antenna 4 Customers</h1>
           <div
             class="card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="">Effortless Connections</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Seamlessly reach out to businesses <br />
               for inquiries, support, or engaging <br />
               conversations
@@ -102,20 +102,20 @@
           </div>
           <div
             class="card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="paragraph">Limitless Access</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Discover and connect with any <br />
               company, anywhere any where, at your fingertips.
             </p>
           </div>
           <div
             class="wrapper3 card-wrapper"
-            style="margin-top: 15%; padding-left: 12% !important"
+            style="margin-top: 8%; padding-left: 12% !important"
           >
             <h3 class="">Community</h3>
-            <p class="paragraph" style="font-weight: bold">
+            <p class="paragraph" style="font-size: 14.5px">
               Engage with other users with similar <br />
               interest and get quick support and answers to your
             </p>
@@ -143,9 +143,9 @@ h3 {
 }
 
 p {
-  color: rgb(183, 177, 177);
-  font-size: medium;
-  font-weight: 100;
+  color: rgb(3, 3, 3);
+  /* font-size: medium;
+  font-weight: 100; */
   /* font-family: "Times New Roman", Times, serif; */
 }
 
@@ -168,7 +168,7 @@ p {
 
   .paragraph {
     font-size: 1rem;
-    color: rgb(198, 196, 196) !important;
+    /* color: rgb(198, 196, 196) !important; */
     margin-bottom: 0% !important;
   }
 
