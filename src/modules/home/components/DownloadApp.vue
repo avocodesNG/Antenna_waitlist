@@ -20,4 +20,8 @@
 export default {};
 </script>
 
-<style></style>
+<style scoped>
+.download-app {
+  margin-top: 10% !important;
+}
+</style>

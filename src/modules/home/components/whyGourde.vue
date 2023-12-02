@@ -40,9 +40,9 @@
       class="row wrapper"
       style="
         margin-top: 15%;
-        background-color: rgba(255, 245, 245, 0.478);
+        background-color: rgba(255, 248, 248, 0.478);
         border-radius: 50px !important;
-        /* height: 100vh; */
+        height: 90vh;
       "
     >
       <div class="col-md-6">

@@ -1,5 +1,5 @@
 <template>
-  <div class="app-footer py-4 text-center container mt-5">
+  <div class="app-footer py-4 text-center container">
     <footer class="text-center bg-body-tertiary row">
       <div class="col-md-6">
         <div class="d-flex justify-content-around">
@@ -59,6 +59,10 @@ export default {
   font-size: xx-large !important;
   color: blue;
 }
+
+/* .app-footer {
+  margin-top: 10% !important;
+} */
 
 /* @media (max-width: 990px) {
   .wrapper {
