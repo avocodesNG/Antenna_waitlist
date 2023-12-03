@@ -22,7 +22,7 @@
     </div>
   </div> -->
   <div class="container-fluid sticky-top">
-    <div class="">
+    <div>
       <div class="d-flex justify-content-between">
         <div>
           <router-link to="/">
